@@ -155,7 +155,7 @@ exports.regexToDelimiter = function(regex, delimiter, data, callback) {
  * create the transformer instance - change this to be regexToDelimter, or your
  * own new function
  */
-var transformer = exports.jsonToStringTransformer.bind(undefined);
+var transformer = exports.addNewlineTransformer.bind(undefined);
 
 /**
  * Convenience function which generates the batch set with low and high offsets
